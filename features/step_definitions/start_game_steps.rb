@@ -1,6 +1,5 @@
 
 Given /^I am not yet playing$/ do
-  @output = Codebreaker::Output.new
 end
 
 When /^I start a new game$/ do
