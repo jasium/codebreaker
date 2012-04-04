@@ -22,28 +22,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="game_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="game_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="49" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.42015505">
+            <state line="36" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codebreaker_submits_guess.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/codebreaker_submits_guess.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="27" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="game.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+            <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="0.052713178">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codebreaker_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="20" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marker.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/codebreaker/marker.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codebreaker.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/codebreaker.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,12 +84,13 @@
         <option value="$PROJECT_DIR$/features/step_definitions/output.rb" />
         <option value="$PROJECT_DIR$/spec/game_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/lib/codebreaker.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/start_game_steps.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb" />
-        <option value="$PROJECT_DIR$/lib/codebreaker/game.rb" />
         <option value="$PROJECT_DIR$/features/codebreaker_submits_guess.feature" />
         <option value="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/codebreaker.rb" />
+        <option value="$PROJECT_DIR$/lib/codebreaker/marker.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb" />
+        <option value="$PROJECT_DIR$/lib/codebreaker/game.rb" />
       </list>
     </option>
   </component>
@@ -657,13 +676,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/codebreaker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.026356589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/codebreaker_starts_game.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -674,13 +686,6 @@
     <entry file="file://$PROJECT_DIR$/lib/codebreaker/output.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="4" selection-start="103" selection-end="103" vertical-scroll-proportion="0.15813954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.026356589">
           <folding />
         </state>
       </provider>
@@ -699,20 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/codebreaker_submits_guess.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -720,9 +711,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/codebreaker_submits_guess.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="27" selection-start="896" selection-end="896" vertical-scroll-proportion="0.65891474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/codebreaker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/codebreaker/marker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="49" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.42015505">
+        <state line="36" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="0.052713178">
           <folding />
         </state>
       </provider>
