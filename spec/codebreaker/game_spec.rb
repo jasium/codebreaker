@@ -12,7 +12,7 @@ module Codebreaker
         game.start
       end
       it "prompts for the first guess" do
-        output.should_receive(:puts).with("Enter guess:")
+        output.should_receive(:puts).with("Enter Guess:")
         game.start
       end
     end
