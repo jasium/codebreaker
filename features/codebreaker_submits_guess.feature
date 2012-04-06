@@ -37,5 +37,15 @@ Feature: codebreaker submits guess
       | 1234 | 1423  | +--- |
       | 1234 | 4321  | ---- |
 
+    Scenarios: matches with duplicates
+      | code | guess | mark |
+      | 1234 | 1155  | +    |
+      | 1234 | 5115  | -    |
+      | 1134 | 1155  | ++   |
+      | 1134 | 5115  | +-   |
+      | 1134 | 5511  | --   |
+      | 1134 | 1115  | ++   |
+      | 1134 | 5111  | +-   |
+
 
 
