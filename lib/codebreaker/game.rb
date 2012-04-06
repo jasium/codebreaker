@@ -1,6 +1,7 @@
 module Codebreaker
 
   require 'marker'
+
   class Game
     # @param output [Object]
     def initialize(out)
@@ -14,8 +15,8 @@ module Codebreaker
     end
 
     def guess(guess)
-      marker = Marker.new(@secret)
-      @output.puts '+' * marker.exact_match_count(guess) + '-' * marker.number_match_count(guess)
+      marker = Marker.new(@secret, guess)
+      @output.puts '+' * marker.exact_match_count + '-' * marker.number_match_count
     end
   end
 end
